@@ -1,0 +1,61 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 700px;
+  max-width: 100%;
+  background: white;
+  margin: 35px auto;
+  padding: 30px 30px;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.theme-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background: #000000;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+.theme-button:hover {
+  color: #000000;
+  background: white;
+  cursor: pointer;
+}
+#search-input {
+  background: whitesmoke;
+  border-radius: 6px;
+  border: none;
+  width: 74%;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 18px;
+}
+#search-input-button {
+  background: #885df1;
+  color: #f9f7fe;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 20%;
+  margin: 10px auto;
+  padding: 15px;
+  border: none;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+}
+a {
+  color: #885df1;
+}
+footer {
+  font-family: "Sofadi One", system-ui;
+  text-align: center;
+  font-size: 14px;
+}
